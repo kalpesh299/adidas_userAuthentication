@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background:url("https://i.ytimg.com/vi/QfK0DepIkYA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCIIVKh9xObPc5F4ghMBr0rf7i_YA");
+      background-repeat: no-repeat;
+     background-size: cover;
+}
+nav{
+    height:10vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  
+    background-color: #d9e6ef;
+}
+.logo{
+    height:90%;
+    width:10vw;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.logo img{
+    height:80%;
+    width:70%;
+}
+ul{
+    width:40vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight: 900;
+}
+
+ul li{
+    color:#1367a0;
+}
+.signin_signup{
+    width:20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.signin_signup a{
+    text-decoration: none;
+    font-weight: 800;
+    color:#1367a0;
+    font-weight: 900;
+}
+.signin_signup a:hover{
+    color:black
+}
